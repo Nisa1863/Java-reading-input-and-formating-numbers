@@ -34,11 +34,11 @@ public class Main {
         // string deniyelim kelime yazalim//
         /* ve string dedik ama mesela ben oraya Nisa nur
         dersem sadece nisayi alir ve cozumu nedir next.Line
-        dir
+        dir 
             String name = scanner.next();
          */
         System.out.println("what is your name:");
-        String name = scanner.next();
+        String name = scanner.nextLine();
         System.out.println("you are name =" + name);
         /*
 
@@ -51,7 +51,7 @@ public class Main {
         satir basinda da varsa ne yapmaliiz
         String name = scanner.nextLine().trim();
         yani sadece next line kullanmak yetmiyor
-        trim de satir sonu bosluklari siliyor
+        trim le daha guvenilir bir sekilde yapamizi saglar
          */
 
     }
